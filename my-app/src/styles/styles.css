@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    padding-inline-start: 0px;
+    padding-inline-end: 0px;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+}
+
+main {
+    max-width: 1440px;
+    width: 100%;
+    height: 100%;
+    max-height: 900px;
+    background: #3399CC;
+    border: 25px solid #2B81AC;
+    padding: 1% 5%;
+}
+
+.weather-table {
+    max-width: 1170px;
+    max-height: 592px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.sun-title {
+    max-width: 35px;
+    max-height: 34px;
+    width: 100%;
+    height: 100%;
+}
+
+.text-title {
+    display: flex;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-left: 9.51%;
+    margin-top: 66.1px;
+    align-items: center;
+
+}
+
+ul {
+    max-width: 1170px;
+    max-height: 592px;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+}
+
+li {
+    display: inline-block;
+    max-width: 291.5px;
+    width: 100%;
+    height: 100%;
+    max-height: 147px;
+    padding: 26px;
+    background: #3399CC;
+    border: 2px solid #FFFFFF;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+}
+
+li p {
+    font-family: 'Lucida Sans Unicode';
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+li span {
+    font-family: 'Lucida Sans Unicode';
+    font-size: 22px;
+    line-height: 26px;
+
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+svg {
+    width: 47px;
+    height: 61px;
+}
+
+.city1 {
+    max-width: 583px;
+    width: 100%;
+    max-height: 147px;
+    height: 100%;
+    padding: 26px;
+}
+
+.city2 {
+    background: #33CCCC;
+}
+
+.city3 {
+    background: #996699;
+}
+
+.city4 {
+    background: #C24747;
+}
+
+.city5 {
+    background: #E2674A;
+}
+
+.city6 {
+    background: #FFCC66;
+}
+
+.city7 {
+    background: #99CC99;
+}
+
+.city8 {
+    background: #669999;
+}
+
+.city9 {
+    background: #CC6699;
+    max-width: 583px;
+    width: 100%;
+    max-height: 147px;
+    height: 100%;
+}
+
+.city10 {
+    background: #339966;
+}
+
+.city11 {
+    max-width: 1166px;
+    width: 100%;
+    max-height: 147px;
+    height: 100%;
+    background: #666699;
+}
+
+.text__underWeather {
+    font-family: 'Lucida Sans Unicode';
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-top: 37px;
+    margin-bottom: 119px;
+}
+
+@keyframes show-li{
+    from{
+        opacity: 0.4;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+
+li:hover{
+    animation-name: show-li;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    border: 2px solid white;
+}
+
+ul:hover li {
+ opacity: 0.4;
+}
+
+ul:hover li:hover {
+    opacity: 1;
+}
